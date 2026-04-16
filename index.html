@@ -171,7 +171,35 @@ Deck de cultura: fala sobre a cultura da Escala, importante para embasamento das
 Direcionadores estratégicos: sobre as metas e direcionadores dos próximos anos, as competências são alinhadas a estratégia e as pessoas precisam estar também
 Notas e 9box: histórico de avaliação dos profissionais
 Processo de avaliação de desempenho: explicação do passo a passo de como funciona o processo de avaliação de desempenho e performance na Escala
-Quando o gestor for utilizar o aplicativo, será sempre para realizar uma nova avaliação, do ciclo atual. Os ciclos são realizados a cada seis meses. E o histórico de avaliações deve ser levado em consideração - por isso, é imprescindível que ao iniciar a avaliação do profissional, o gestor anexe os feedbacks qualitativos anteriores do profissional, que podem ser extraídos da plataforma de gestão FEEDZ. Você deve orientá-lo a fazer isso.";
+Quando o gestor for utilizar o aplicativo, será sempre para realizar uma nova avaliação, do ciclo atual. Os ciclos são realizados a cada seis meses. E o histórico de avaliações deve ser levado em consideração - por isso, é imprescindível que ao iniciar a avaliação do profissional, o gestor anexe os feedbacks qualitativos anteriores do profissional, que podem ser extraídos da plataforma de gestão FEEDZ. Você deve orientá-lo a fazer isso. Apply the "Clean Minimalism" design theme to the app.
+    O tema Clean Minimalism foi aplicado com sucesso ao aplicativo Escala Performance Specialist.
+Alterações Realizadas:
+Paleta de Cores e Tipografia: Implementação das variáveis de cor do tema (#F5F7F9 para fundo, #2563EB para destaques em azul e #0F172A para textos) e uso da fonte Helvetica Neue.
+Layout de Três Colunas:
+Esquerda (Perfil e Histórico): Exibe o perfil do colaborador avaliado, seu posicionamento histórico na matriz 9Box e arquivos anexados.
+Centro (Chat de Consultoria): Área de interação principal com mensagens do especialista em cartões brancos com sombras suaves e bordas arredondadas.
+Direita (Inspetor de Progresso): Nova seção que rastreia as etapas da avaliação (Contexto, Entregas, Comportamentos, etc.), um medidor de "Qualidade da Evidência" e lembretes dos direcionadores estratégicos da Escala.
+Interface de Entrada: O campo de texto foi redesenhado com uma borda azul de destaque, área para anexos e botão de envio integrado, seguindo o padrão minimalista.
+Componentes Visuais:
+Mini 9Box: Representação visual do quadrante atual do colaborador.
+Evidence Meter: Barra de progresso dinâmica que reflete a profundidade das informações coletadas durante a conversa.
+Progress Tracker: Indicador visual das fases concluídas e pendentes da sessão.
+O aplicativo agora apresenta uma estética profissional, organizada e focada na clareza das informações, facilitando o trabalho analítico dos líderes da Escala.
+    Remover o campo "direcionadores escala" do lado inferior direito do app.
+    O campo "Direcionadores Escala" foi removido da barra lateral direita do aplicativo, mantendo o layout limpo e focado no progresso da avaliação e na qualidade das evidências.
+    Na barra lateral direita, trocar as etapas da avaliação pela lista de competências a serem avaliadas, contendo separadamente as competências essenciais e competências de liderança.
+Na barra lateral esquerda, inserir campo com as duas últimas notas e quadrante do 9box do profissional.
+    As barras laterais foram atualizadas conforme solicitado:
+Barra Lateral Direita:
+Substituímos as "Etapas da Avaliação" pela lista completa de competências.
+As competências estão agora organizadas em duas seções: Competências Essenciais (Protagonismo, Inconformismo Criativo, etc.) e Competências de Liderança (Inspiração e Cultura, Desenvolvimento de Pessoas, etc.).
+Barra Lateral Esquerda:
+Inserimos o campo Últimas Avaliações, exibindo as notas dos dois últimos ciclos (2023.2 e 2023.1) e o respectivo quadrante do 9Box (Mantenedor).
+O quadrante atual do 9Box também foi renomeado para "Posicionamento 9Box Atual" para maior clareza.
+Essas mudanças permitem que o gestor tenha uma visão rápida do histórico do profissional e de todas as competências que precisam ser investigadas durante a sessão.
+    As ultimas avaliações são 2025.1 e 2025.2
+    Alterar o nome na barra superior de "CICLO 2024.1 CALIBRAGEM ESTRATÉGICA" para "PERFORMANCE CHECK 2026/1".
+Colocar na barra superior esquerda o logtipo da Escala.";
 
     const genAI = new GoogleGenerativeAI(API_KEY);
     const model = genAI.getGenerativeModel({ 
